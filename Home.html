@@ -1,0 +1,66 @@
+<style>
+    ul{
+        position:sticky;
+        top:0;
+        width:100%;
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        overflow: hidden;
+    }
+    li{
+        float: left;
+        width:33.3333333%;
+    }
+    li a{
+        display: block;
+        background-color: whitesmoke;
+        text-align: center;
+        padding: 20px 20px;
+        
+    }
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.flex-container > .nav-link{
+    width: 1000px;
+    margin: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    text-emphasis: none;
+    color: black;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color:black;
+}
+a:hover,a:active{
+    color:blue;
+}
+#header{
+    padding-left: 50px;
+    padding-right: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#logo{
+    float: left;
+}
+</style>
+<div class="flex-container">
+    <ul>
+        
+        <li><div class="nav-link">
+            <a href="ProductList.html">Full Menu</a>
+        </div></li>
+        <li><div class="nav-link">
+            <a href="SingleProduct.html">Featured Dish</a>
+        </div></li>
+        <li><div class="nav-link">
+            <a href="Home.html">Home</a>
+        </div></li>
+    </ul>
+</div class="flex-container">
+<h1 id="header">Poe's Tavern</h1>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrPNhZ4qbpzqQyWXYkdxsa5XtJX7JWNdTByQSnhhbIl7TpV2aCyg" id="logo">
